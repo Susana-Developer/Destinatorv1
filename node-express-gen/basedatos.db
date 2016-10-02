@@ -1,0 +1,31 @@
+{
+        "puesto_numero": 2,
+        "centro_directivo": "Delegacion de gobierno en Andalucia",
+        "centro_destino": "Subdelegacion del gobierno de Almeria",
+        "provincia": "Almeria",
+        "localidad": "Almeria",
+        "puesto_trabajo": "Programador de segunda",
+        "nivel": 15,
+        "comp_especifico": "3456,76",
+        "comp_productividad": "100",
+        "direccion": "C/Maria de Molina 23",
+        "telefono": "917656789",
+        "horario_flexibilidad": "No",
+        "descripcion": "Programación en Java",
+        "transporte_publico": "metro, parada Principe Pío y buses",
+        "aparcamiento": "un mes si, un mes no",
+        "ayudas_estudios": "pago matrícula universitaria",
+        "ayudas_cuerpos_superiores": "cursos",
+        "concilacion": "reducción de horario",
+        "accion_social": "abono transporte",
+        "comedor": "sí, menú 5 euros",
+        "ducha": "No",
+        "promocion": "concursos anuales",
+        "externos": "Sí",
+		"comments": [
+            {
+                "comment": 'This is insane',
+                "author": 'Matt Daemon'
+            }
+        ]
+    }

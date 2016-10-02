@@ -1,0 +1,70 @@
+
+    <div class="container">
+        <div class="row row-content">
+            <h2>Destinos ofertados</h2>
+            <div class="table-responsive">
+                  <table class="table table-striped table-hover">
+                    <thead>
+                      <tr>
+                        <th>PUESTO NÚMERO</th>
+                        <th>CENTRO DIRECTIVO / OO.AA.</th>
+                        <th>CENTRO DE DESTINO</th>
+                        <th>PROVINCIA</th>
+                        <th>LOCALIDAD</th>
+                        <th>PUESTO DE TRABAJO</th>
+                        <th>NIVEL C.D</th>
+                        <th>COMP.ESPECÍFICO</th>
+                        <th>COMP. PRODUCTIVIDAD</th>
+                        <th>DIRECCIÓN</th>
+                        <th>TELÉFONO</th>
+                        <<th>HORARIO / FLEXIBILIDAD</th>
+                        <th>DESCRIPCIÓN TRABAJO (PROGRAMACIÓN, SISTEMAS,...)</th>
+                        <th>TRANSPORTE PÚBLICO</th>
+                        <th>APARCAMIENTO</th> 
+                        <th>AYUDAS ESTUDIOS</th>
+                        <th>AYUDAS PREPARACIÓN CUERPOS SUPERIORES (PERMISOS, BECAS, ...)</th>
+                        <th>CONCILIACIÓN</th>
+                        <th>ACCIÓN SOCIAL</th>
+                        <th>COMEDOR, PRECIO</th>
+                        <th>DUCHA</th>
+                        <th>PERSPECTIVAS DE PROMOCIÓN, FRECUENCIA CONCURSOS, POSIBILIDADES DE MOVILIDAD GEOGRÁFICA</th>
+                        <th>PRESENCIA EXTERNOS</th>
+                        <!--<th>COMENTARIOS</th>-->
+                      </tr>
+                    </thead>
+                     <tbody>
+                      <tr ng-repeat="x in destino">
+                        <td>{{x.puesto_numero}}</td>
+                        <td>{{x.centro_directivo}}</td>
+                        <td>{{x.centro_destino}}</td>
+                        <td>{{x.provincia}}</td>
+                        <td>{{x.localidad}}</td>
+                        <td>{{x.puesto_trabajo}}</td>
+                        <td>{{x.nivel}}</td>
+                        <td>{{x.comp_especifico}}</td>
+                        <td>{{x.comp_productividad}}<br><button class="btn btn-xs btn-info" style="float: bottom;" type="button" cache-view="false" ng-model="productividad" ng-click="openDialog(x.comp_productividad, x._id, x.puesto_numero)">Editar</button></td>
+                        <td>{{x.direccion}}<br><button class="btn btn-xs btn-info vertical-bottom" type="button" cache-view="false" ng-model="direccion" ng-click="openDialogDir(x.direccion, x._id, x.puesto_numero)">Editar</button></td>
+                        <td>{{x.telefono}}<br><button class="btn btn-xs btn-info" type="button" cache-view="false" ng-model="telefono" ng-click="openDialogTel(x.telefono, x._id, x.puesto_numero)">Editar</button></td>
+                        <td>{{x.horario_flexibilidad}}<br><button class="btn btn-xs btn-info" type="button" cache-view="false" ng-model="horario_flexibilidad" ng-click="openDialogHorario(x.horario_flexibilidad, x._id, x.puesto_numero)">Editar</button></td>
+                        <td>{{x.descripcion}}<br><button class="btn btn-xs btn-info" type="button" cache-view="false" ng-model="descripcion" ng-click="openDialogDescripcion(x.descripcion, x._id, x.puesto_numero)">Editar</button></td>
+                        <td>{{x.transporte_publico}}<br><button class="btn btn-xs btn-info" type="button" cache-view="false" ng-model="transporte_publico" ng-click="openDialogTransporte(x.transporte_publico, x._id, x.puesto_numero)">Editar</button></td>
+                        <td>{{x.aparcamiento}}<br><button class="btn btn-xs btn-info" type="button" cache-view="false" ng-model="aparcamiento" ng-click="openDialogAparcamiento(x.aparcamiento, x._id, x.puesto_numero)">Editar</button></td>
+                        <td>{{x.ayudas_estudios}}<br><button class="btn btn-xs btn-info" type="button" cache-view="false" ng-model="ayudas_estudios" ng-click="openDialogAyudas(x.ayudas_estudios, x._id, x.puesto_numero)">Editar</button></td>
+                        <td>{{x.ayudas_cuerpos_superiores}}<br><button class="btn btn-xs btn-info" type="button" cache-view="false" ng-model="ayudas_cuerpos_superiores" ng-click="openDialogAyudasCuerposSuperiores(x.ayudas_cuerpos_superiores, x._id, x.puesto_numero)">Editar</button></td>
+                        <td>{{x.concilacion}}<br><button class="btn btn-xs btn-info" type="button" cache-view="false" ng-model="conciliacion" ng-click="openDialogConciliacion(x.concilacion, x._id, x.puesto_numero)">Editar</button></td>
+                        <td>{{x.accion_social}}<br><button class="btn btn-xs btn-info" type="button" cache-view="false" ng-model="accion_social" ng-click="openDialogAccion(x.accion_social, x._id, x.puesto_numero)">Editar</button></td>
+                        <td>{{x.comedor}}<br><button class="btn btn-xs btn-info" type="button" cache-view="false" ng-model="comedor" ng-click="openDialogComedor(x.comedor, x._id, x.puesto_numero)">Editar</button></td>
+                        <td>{{x.ducha}}<br><button class="btn btn-xs btn-info" type="button" cache-view="false" ng-model="ducha" ng-click="openDialogDucha(x.ducha, x._id, x.puesto_numero)">Editar</button></td>
+                        <td>{{x.promocion}}<br><button class="btn btn-xs btn-info" type="button" cache-view="false" ng-model="promocion" ng-click="openDialogPromocion(x.promocion, x._id, x.puesto_numero)">Editar</button></td>
+                        <td>{{x.externos}}<br><button class="btn btn-xs btn-info" type="button" cache-view="false" ng-model="externos" ng-click="openDialogExternos(x.externos, x._id, x.puesto_numero)">Editar</button></td>
+                        <!--<td>{{x.comments}}</td>-->
+                      </tr>
+                      </tbody>
+                </table>
+            </div>
+
+
+
+        </div>
+
+    </div>

@@ -1,0 +1,27 @@
+Connected correctly to server
+Token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlN1c2FuIiwiX2lkIjoiNTdlOTc4OGFiMTE4MWQyYWJjZTgyNjk3IiwiYWRtaW4iOmZhbHNlLCJpYXQiOjE0NzUxNzIwMTcsImV4cCI6MTQ3NTE3NTYxN30.PvZb_CJ8ndXcsnwSL9YZdGHmyYdtP4tYXKnSWrdsBdc
+[0mGET /destinos [33m401 [0m72.610 ms - 63[0m
+[0mOPTIONS /destinos [32m200 [0m2.374 ms - 20[0m
+Token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlN1c2FuIiwiX2lkIjoiNTdlOTc4OGFiMTE4MWQyYWJjZTgyNjk3IiwiYWRtaW4iOmZhbHNlLCJpYXQiOjE0NzUzNTA5ODgsImV4cCI6MTQ3NTM1NDU4OH0.eQysjp-Qy-qoFIULTLX091kIAeFc6g5KuXkVcj_ysng
+[0mGET /destinos [33m401 [0m2.029 ms - 63[0m
+[0mOPTIONS /users/logout [32m200 [0m0.689 ms - 8[0m
+Token  undefined
+[0mGET /destinos [33m403 [0m0.760 ms - 55[0m
+[0mGET /users/logout [32m200 [0m1.496 ms - 17[0m
+[0mOPTIONS /users/login [32m200 [0m0.369 ms - 4[0m
+Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+User in users:  { _id: 57e9788ab1181d2abce82697,
+  salt: '42decdfc8d7e26c720ca393da64f047579870805bbdaaf33abb097190889952d',
+  hash: 'fd5cbace267b4ae9c835155bc2ae2129456d038872fd85a156c5ae21483c2715f158eb73851f0de66c5083f76d5ac19445d419c72fef80bc3495332c8b50cc728ab2739e4052007b005654666d6ffaba40e14eda68fa252d83b45a1cf0111020c06d9852abbd0e3773eb243fd92ed787d8db95a190b32cffb2187e56e217681e5c1c891e0f0baed14f545c92c86d1d9d85615cd834731eba02f8b74784e2ab7eb38f7bcf7a4e1b8d1917c8c4e5f510c907d1fb706863dc86b02dd26cb60c5d8b30d2de719025db97df189eaf820aacdf4adc35b3b73822c5c4a8c317ee81c9328c6b92cd8debb46b37439a98aead08e63e62cae079e955e38e128c562dbe4ba143d1feef96391b1037d1d1f0dda94c336843dabba8f2f9d930f70bea84b39ab16779f9c34af6aa00b6a178206f0f15e281cc5b3fa335e97d92fa0d627614575412a6b1629b4033653a0b5648220cad055e4fe62265526bb7ba96515da2886b94eee91176421ae23b1fc1926db804c7db539d0a18f631eebc2fa8f417f6aafdd21651adf4f9c52e76b60b185affa42923d73f077e1dbcc5d9b2f09df0d29681ddd0f33aafaac6cdd3f27a3a20cdc1dadc23f82a596910a8be7c21323d986430f49847c2b80a6ac14cf16af9d1225ba7849d99a53dda0642f39b71a22525bf74b5d6e3db347e11bfc1d717c69cf27f5c01d5793c7d1b01d681a66e803c5772d712',
+  username: 'Susan',
+  firstname: 'Susana',
+  lastname: 'Iñiguez',
+  __v: 0,
+  admin: false }
+[0mPOST /users/login [32m200 [0m759.620 ms - 272[0m
+[0mOPTIONS /destinos [32m200 [0m0.391 ms - 20[0m
+Token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlN1c2FuIiwiX2lkIjoiNTdlOTc4OGFiMTE4MWQyYWJjZTgyNjk3IiwiYWRtaW4iOmZhbHNlLCJpYXQiOjE0NzUzOTMyNDcsImV4cCI6MTQ3NTM5Njg0N30.K93mTSiO-UrukNbpqwCL_Xl_5r9JYCH_SAhba8H9TWI
+[0mGET /destinos [32m200 [0m14.286 ms - 1964[0m
+[0mOPTIONS /destinos [32m200 [0m0.261 ms - 20[0m
+Token  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlN1c2FuIiwiX2lkIjoiNTdlOTc4OGFiMTE4MWQyYWJjZTgyNjk3IiwiYWRtaW4iOmZhbHNlLCJpYXQiOjE0NzUzOTMyNDcsImV4cCI6MTQ3NTM5Njg0N30.K93mTSiO-UrukNbpqwCL_Xl_5r9JYCH_SAhba8H9TWI
+[0mGET /destinos [32m200 [0m9.629 ms - 1964[0m
